@@ -1,4 +1,4 @@
-package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.setter_injection;
+package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.setter_injection;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

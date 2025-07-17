@@ -1,4 +1,4 @@
-package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.application_context;
+package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.application_context;
 
 public class Student {
     // member variables

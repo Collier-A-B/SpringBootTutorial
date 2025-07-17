@@ -1,4 +1,4 @@
-package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.bean_factory;
+package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.bean_factory;
 
 // Java Program where we are
 // creating a POJO class

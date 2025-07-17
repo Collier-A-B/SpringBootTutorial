@@ -1,4 +1,4 @@
-package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.constructor_injection;
+package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.constructor_injection;
 
 import org.springframework.stereotype.Component;
 

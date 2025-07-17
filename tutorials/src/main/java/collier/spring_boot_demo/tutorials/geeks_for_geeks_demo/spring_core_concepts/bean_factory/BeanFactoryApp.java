@@ -1,4 +1,4 @@
-package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.bean_factory;
+package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.bean_factory;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -5,13 +5,13 @@
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <!-- Define the Jio bean. To change the implementation, just use Airtel class -->
-  <bean id="sim" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.inversion_of_control.Jio"></bean>
+  <bean id="sim" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.inversion_of_control.Jio"></bean>
 
   <!-- Define MathCheat bean -->
-  <bean id="mathCheatObjectValue" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.constructor_injection.MathCheat"></bean>
+  <bean id="mathCheatObjectValue" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.constructor_injection.MathCheat"></bean>
 
   <!-- Define Student bean with Constructor Injection -->
-    <bean id="student" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.constructor_injection.Student">
+    <bean id="student" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.constructor_injection.Student">
         <constructor-arg name="id" value="101"/>
         <constructor-arg name="mathCheat" ref="mathCheatObjectValue"/>
     </bean>

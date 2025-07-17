@@ -1,4 +1,4 @@
-package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.inversion_of_control;
+package collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.inversion_of_control;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

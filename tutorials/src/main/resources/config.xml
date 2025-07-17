@@ -5,7 +5,7 @@
                            https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Setter-Based Dependency Injection -->
-    <bean id="stud" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.setter_injection.Student">
+    <bean id="stud" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.setter_injection.Student">
         <property name="studentName" value="John" />
         <property name="studentCourse" value="Spring Framework" />
     </bean>

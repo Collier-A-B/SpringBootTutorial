@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hw" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.bean_lifecycle.HelloWorld"
+          init-method="init" destroy-method="destroy"/>
+    <bean id="hwInterface" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.bean_lifecycle.HelloWorldInterApproach"/>
+
+    <!-- Activate the @PostConstruct and @PreDestroy annotations -->
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
+    <!-- Configure the bean -->
+    <bean id="hwAnnotation" class="collier.spring_boot_demo.tutorials.geeks_for_geeks_demo.spring_core_concepts.bean_lifecycle.HelloWorldAnnotation"/>
+</beans>
